@@ -37,7 +37,7 @@ Set-PoshPrompt paradox
 
 - 直接把settings.json替换Windows Terminal的settings.json，并修改其中某些片段：
 
-- ```json5
+- ```json
   //个人美化配置
     "profiles": {
       "defaults": {
@@ -55,7 +55,7 @@ Set-PoshPrompt paradox
       },
   ```
   
-- ```json5
+- ```json
   //git配置(其实只要把D:\\Program Files\\Git替换一下就行了)
         {
           "commandline": "D:\\Program Files\\Git\\bin\\bash.exe", //git起始位置(自己修改)
